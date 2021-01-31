@@ -11,5 +11,8 @@ public class Main {
         // write your code here
         new Car().driving(); //полиморфизм
         car1.driving();
+        Person man = new Person(); //инкапсуляция
+        man.setName("Tom");
+        System.out.println(man.getName());
     }
 }
